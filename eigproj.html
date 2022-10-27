@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eigen Projecten</title>
+    <link rel="stylesheet" href="css/eigproj.css">
+
+</head>
+<body>
+<!-- Header -->
+<div class="center">
+    <div class="">
+        <h1 href="index.html">Eigen Projecten.</h1>
+    
+        <div class="items">
+            
+            <article id="faith" onclick="openForm()">
+                <h1>FAITH</h1>
+            </article>
+            <article id="portfolio" onclick="openPortfolio()">
+                <h1></h1>
+            </article>
+
+          
+
+            <div class="form-popup" id="myForm">
+              <div class="form-container">
+                <h4>Faith - Dexus Studio</h4>
+                <p>Faith is een Roblox game die ik samen met een vriend heb gemaakt. We zijn dit project tijdens school <br>begonnen en hebben het daarna afgemaakt.<br><br>We hebben nu in 4 maanden 3,7M+ visits, 123,4k Favorites & 11k Likes<br>met gemiddeld 100 spelers online.</p>
+                <div class="screenshotsf">
+                    <img class="faith" src="./Images/faith3" alt="FAITH">
+                    <img class="faith" src="./Images/faith4.png" alt="FAITH">
+                    <img class="faith" src="./Images/faith5.png" alt="FAITH">
+                </div>
+                
+                
+                <P>Geleerd: Kleine Beetje Lua, Envoirment Bouwen & Samenwerken</P>
+                <p><a class="github" href="https://www.roblox.com/games/9297627871/Faith">Roblox Page</a></p>
+                
+                
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </div>
+            </div>
+
+
+
+
+            <div class="form-popup" id="myPortfolio">
+                <div class="form-container">
+                  <h4>Portfolio - Sander Bakkum</h4>
+                  <p>Dit is de portfolio die ik gebruik voor het laten zien voor mijn projecten</p>
+                  <div class="screenshotsf">
+                      <img class="faith" src="./Images/JSPF.png" alt="Portfolio">
+                      <img class="faith" src="./Images/CSSPF.png" alt="Portfolio">
+                      <img class="faith" src="./Images/HTMLPF.png" alt="Portfolio">
+                  </div>
+                  
+                  
+                  <P>Gebruikt: HTML/CSS/JS</P>
+                  <p><a class="github" href="https://www.roblox.com/games/9297627871/Faith">Roblox Page</a></p>
+                  
+                  
+                  <button type="button" class="btn cancel" onclick="closePortfolio()">Close</button>
+                </div>
+              </div>
+            
+            <script>
+            function openForm() {
+              document.getElementById("myForm").style.display = "block";
+            }
+            
+            function closeForm() {
+              document.getElementById("myForm").style.display = "none";
+            }
+
+
+
+            function openPortfolio() {
+              document.getElementById("myPortfolio").style.display = "block";
+            }
+            
+            function closePortfolio() {
+              document.getElementById("myPortfolio").style.display = "none";
+            }
+            </script>
+           
+            
+        </div>
+        
+        
+
+    </div>
+    </div>
+<!-- Hamburger menu -->
+    <div class="section" id="">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+            <span></span>
+            </label>
+        
+            <ul class="menu__box">  
+            <li>
+                    <a class="menu__item" href="index.html">Home</a></li>
+                    <li><a class="menu__item" href="index.html">Over mij</a></li>
+                     <li><a class="menu__item" href="index.html">Contact</a></li>
+                    <li><a class="menu__item" href="schproj.html">School projecten</a></li>
+                    <li><a class="menu__item" href="eigproj.html">Eigen projecten</a></li> 
+            </ul>
+        </div>
+    <!-- Footer -->
+    
+    </div>
+    <div class="section" id="s2"></div> 
+        <div class="container1">
+            
+    </div>
+</body>
+</html>

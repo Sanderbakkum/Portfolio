@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Projecten</title>
+    <link rel="stylesheet" href="css/schproj.css">
+
+</head>
+<body>
+<!-- Header -->
+<div class="center">
+    <div class="">
+        <h1 href="index.html">School Projecten.</h1>
+    
+        <div class="items">
+            
+            <article id="faith" onclick="openForm()">
+                <h1>FAITH</h1>
+            </article>
+            <article id="TC" onclick="openForm1()">
+                <h1>TC</h1>
+            </article>
+            <article id="SB" onclick="openForm2()">
+                
+            </article>
+
+          
+<!--FAITH-->
+            <div class="form-popup" id="myForm">
+              <div class="form-container">
+                <h4>Faith - Dexus Studio</h4>
+                <p>Faith is een Roblox game die ik samen met een vriend heb gemaakt. We zijn dit project tijdens school <br>begonnen en hebben het daarna afgemaakt.<br>We hebben nu in 4 maanden 3,7M+ visits, 123,4k Favorites & 11k Likes<br>met gemiddeld 100 spelers online.</p>
+                <div class="screenshotsf">
+                    <img class="faith" src="./Images/faith3" alt="FAITH">
+                    <img class="faith" src="./Images/faith4.png" alt="FAITH">
+                    <img class="faith" src="./Images/faith5.png" alt="FAITH">
+                </div>
+                <P>Geleerd: Kleine Beetje Lua, Envoirment Bouwen & Samenwerken</P>
+                <p><a class="github" href="https://www.roblox.com/games/9297627871/Faith">Roblox Page</a></p>
+                
+                   
+        
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </div>
+            </div>
+<!--Transformers Community-->
+            <div class="form-popup" id="myForm1">
+                <div class="form-container">
+                  <h4>Transformers Community</h4>
+                  <p>Transformers Community is een groep die zich bezig houdt met het helpen van jongeren met <br>allerlei problemen. Dit doen zij met een een forum waar de jongeren hun problemen<br> kwijt kunnen en experts hun kunnen helpen.</p>
+                  <div class="screenshotsf">
+                      <img class="faith" src="./Images/tchomepage.png" alt="tchome">
+                      <img class="faith" src="./Images/htmltc.png" alt="htmltc">
+                      <img class="faith" src="./Images/jstc.png" alt="jstc">
+                  </div>
+                  <P>Geleerd: HTML/CSS/JS, PHP & Samenwerken</P>
+                  <p><a class="github" href="https://github.com/Sanderbakkum/BO-J2P1-Samen">Github</a></p>
+                     
+          
+                  <button type="button" class="btn cancel" onclick="closeForm1()">Close</button>
+                </div>
+              </div>
+<!--Studio Bongaarts-->
+              <div class="form-popup" id="myForm2">
+                <div class="form-container">
+                  <h4>Studio Bongaarts</h4>
+                  <p>Studio Bongaarts maakt chique zelfgemaakte reistassen voor klanten tussen de 35 en 60 jaar.<br> De Tassen bestaan uit echt leer en alles is zelf gedesigned en handgemaakt.</p>
+                  <div class="screenshotsf">
+                      <img class="faith" src="./Images/studiobongaartsvw.png" alt="vw">
+                      <img class="faith" src="./Images/vdsb.png" alt="vd">
+                      <img class="faith" src="./Images/wireframedesk.jpg" alt="wf">
+                  </div>
+                  <P>Geleerd: Wordpress & Samenwerken</P>
+                  <p><a class="github" href="https://github.com/Sanderbakkum/Studio-Bongaarts">Github</a></p>
+                  
+                    
+
+                  <button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
+                </div>
+              </div>
+
+<!--JS-->
+
+            <script>
+            /*FAITH*/
+            function openForm() {
+              document.getElementById("myForm").style.display = "block";
+            }
+            
+            function closeForm() {
+              document.getElementById("myForm").style.display = "none";
+            }
+            /*TC*/
+            function openForm1() {
+              document.getElementById("myForm1").style.display = "block";
+            }
+            
+            function closeForm1() {
+              document.getElementById("myForm1").style.display = "none";
+            }
+            /*Studio Bongaarts*/
+            function openForm2() {
+              document.getElementById("myForm2").style.display = "block";
+            }
+            
+            function closeForm2() {
+              document.getElementById("myForm2").style.display = "none";
+            }
+            </script>
+           
+            
+        </div>
+        
+        
+
+    </div>
+    </div>
+<!-- Hamburger menu -->
+    <div class="section" id="">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+            <span></span>
+            </label>
+        
+            <ul class="menu__box">
+            <li>
+                    <a class="menu__item" href="index.html">Home</a></li>
+                    <li><a class="menu__item" href="index.html">Over mij</a></li>
+                     <li><a class="menu__item" href="index.html">Contact</a></li>
+                    <li><a class="menu__item" href="schproj.html">School projecten</a></li>
+                    <li><a class="menu__item" href="eigproj.html">Eigen projecten</a></li> 
+            </ul>
+        </div>
+    <!-- Footer -->
+    
+    </div>
+    <div class="section" id="s2"></div> 
+        <div class="container1">
+            
+    </div>
+</body>
+</html>
